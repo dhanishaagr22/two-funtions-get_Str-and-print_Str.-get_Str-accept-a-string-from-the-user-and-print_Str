@@ -1,0 +1,17 @@
+class String():
+    def _init_(self):
+        self.str1 =""
+
+    def get_String(self):
+        self.str1 = input()
+
+    def printl_String(self):
+        print(self.str1.upper())
+
+    def print_String(self):
+        print(self.str1.lower())
+
+str1=String()
+str1.get_String()
+str1.print_String()
+str1.print1_string()
